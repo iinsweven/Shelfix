@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Details</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="details-page"
+onload="loadDetails()">
+
+    <div id="details-container"></div>
+
+    <div id="login-message" class="login-message">
+
+    <div class="login-card">
+
+        <h2>Login Required</h2>
+
+        <p>
+            You need to create an account or login
+            to add ratings and reviews.
+        </p>
+
+        <div class="login-buttons">
+
+            <button onclick="goToLogin()"
+            class="login-now-btn">
+
+                Login
+
+            </button>
+
+            <button onclick="closeMessage()"
+            class="cancel-btn">
+
+                Cancel
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
